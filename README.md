@@ -2,8 +2,6 @@
   <img src="Assets/banner.png" alt="Cybersecurity Banner">
 </p>
 
-# Cybersecurity Notes
-
 # Cybersecurity-Notes
 
 A structured collection of my cybersecurity learning journey, including concepts, hands-on labs, Cisco networking exercises, and practical notes.
