@@ -4,6 +4,18 @@
 
 # Cybersecurity-Notes
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Rudransh-Sinha/Cybersecurity-Notes)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Rudransh-Sinha/Cybersecurity-Notes)
+
+![GitHub stars](https://img.shields.io/github/stars/Rudransh-Sinha/Cybersecurity-Notes)
+
+![GitHub forks](https://img.shields.io/github/forks/Rudransh-Sinha/Cybersecurity-Notes)
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+![Markdown](https://img.shields.io/badge/Markdown-100%25-blue)
+
 A structured collection of my cybersecurity learning journey, including concepts, hands-on labs, Cisco networking exercises, and practical notes.
 
 ## About This Repository
