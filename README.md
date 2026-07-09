@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="Assets/banner.png" alt="Cybersecurity Banner">
+</p>
+
+# Cybersecurity Notes
+
 # Cybersecurity-Notes
 
 A structured collection of my cybersecurity learning journey, including concepts, hands-on labs, Cisco networking exercises, and practical notes.
@@ -8,32 +14,32 @@ This repository serves as my personal knowledge base and portfolio as I build a 
 
 ## Topics Covered
 
-* Networking Fundamentals
-* Cisco Packet Tracer Labs
-* 
+- Networking Fundamentals
+- Cisco Packet Tracer Labs
+-
 
 ## Learning Goals
 
-* Build strong networking fundamentals
-* Develop practical cybersecurity skills
-* Document every important concept
-* Complete hands-on labs regularly
-* Create a public portfolio of technical knowledge
+- Build strong networking fundamentals
+- Develop practical cybersecurity skills
+- Document every important concept
+- Complete hands-on labs regularly
+- Create a public portfolio of technical knowledge
 
 ## Current Status
 
-* Cisco Networking Academy
-* Daily cybersecurity notes
-* Packet Tracer practice
-* Continuous GitHub updates
+- Cisco Networking Academy
+- Daily cybersecurity notes
+- Packet Tracer practice
+- Continuous GitHub updates
 
 ## Tech & Tools
 
-* Cisco Packet Tracer
-* Git & GitHub
-* Markdown
-* Linux
-* Python
+- Cisco Packet Tracer
+- Git & GitHub
+- Markdown
+- Linux
+- Python
 
 ## Connect
 
