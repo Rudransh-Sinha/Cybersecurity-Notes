@@ -1,4 +1,6 @@
-# Module 2 - Client-Server & Types of Networks
+# Module 2 – Client-Server Model & Internet Service Provider (ISP)
+
+**Date:** 09-07-2026
 
 ---
 
@@ -8,16 +10,19 @@
 
 A **client** is a computer or device that requests services, resources, or data from a server.
 
-**Examples:**
-- Web Browser (Chrome, Edge)
-- Email Client (Outlook)
-- Mobile Applications
+### Examples
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Email Applications
+
+---
 
 ## Server
 
 A **server** is a computer or device that provides services, resources, or data to clients over a network.
 
-**Examples:**
+### Examples
 - Web Server
 - File Server
 - Database Server
@@ -29,36 +34,47 @@ A **server** is a computer or device that provides services, resources, or data 
 
 ## 1. Peer-to-Peer (P2P)
 
-In a **Peer-to-Peer (P2P)** network, each device can act as both a **client** and a **server**.
+A **Peer-to-Peer (P2P)** network allows every device to act as both a **client** and a **server**.
 
 ### Features
-- No dedicated server
-- Easy to set up
-- Low cost
-- Suitable for small networks
+
+- No dedicated server is required.
+- Devices communicate directly with each other.
+- Easy to set up for small networks.
 
 ### Advantages
-- Simple configuration
-- Cost-effective
-- No dedicated server required
+
+- Low cost
+- Easy installation
+- Simple file sharing
 
 ### Disadvantages
-- Less secure
-- Difficult to manage as the network grows
-- Limited scalability
+
+- Limited security
+- Difficult to manage large networks
+- Poor scalability
+
+### Examples
+
+- Home file sharing
+- LAN gaming
+- Torrent (P2P) applications
 
 ---
 
 ## 2. Internet Service Provider (ISP)
 
-An **Internet Service Provider (ISP)** is a company that provides Internet access to homes, businesses, and organizations.
+An **Internet Service Provider (ISP)** is an organization that provides Internet access to homes, businesses, and other users.
 
 ### Responsibilities
+
 - Connects users to the Internet
 - Assigns IP addresses
-- Provides Internet services
+- Provides Internet connectivity
+- Maintains network infrastructure
 
 ### Common Connection Media
+
 - Fiber Optic Cable
 - DSL
 - Cable Broadband
@@ -67,38 +83,51 @@ An **Internet Service Provider (ISP)** is a company that provides Internet acces
 
 ### Note
 
-The global Internet backbone is primarily connected using **high-speed fiber optic cables**, including many submarine cables that run beneath oceans.
+The global Internet backbone is primarily built using **high-speed fiber optic cables**, including submarine cables laid beneath oceans.
 
 ---
 
-## Key Points
-
-- Client requests services.
-- Server provides services.
-- P2P allows every device to act as both client and server.
-- ISP connects users to the Internet.
-- Fiber optic cables form the backbone of the Internet.
-
----
-
-## Interview Questions
-
-### What is the difference between a Client and a Server?
+# Client vs Server
 
 | Client | Server |
 |---------|--------|
 | Requests data | Provides data |
 | Starts communication | Responds to requests |
-| Chrome Browser | Apache Web Server |
+| Runs client software | Runs server software |
+| Example: Chrome Browser | Example: Apache Web Server |
 
 ---
 
-### What is P2P?
+# Key Takeaways
 
-A Peer-to-Peer network is a network where devices share resources directly without requiring a dedicated server.
+- Clients request services.
+- Servers provide services.
+- P2P networks allow devices to function as both clients and servers.
+- ISPs connect users to the Internet.
+- Fiber optic cables form the backbone of the Internet.
+
+---
+
+# Interview Questions
+
+### What is a Client?
+
+A client is a device or application that requests services or resources from a server.
+
+---
+
+### What is a Server?
+
+A server is a device or software that provides services or resources to clients over a network.
+
+---
+
+### What is a Peer-to-Peer (P2P) Network?
+
+A Peer-to-Peer network is a network where every device can function as both a client and a server without requiring a dedicated server.
 
 ---
 
 ### What is an ISP?
 
-An Internet Service Provider (ISP) is an organization that provides Internet connectivity and related services to users.
+An Internet Service Provider (ISP) is a company that provides Internet access and related networking services to users.
