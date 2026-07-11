@@ -19,7 +19,8 @@ This repository serves as my personal knowledge base and portfolio as I build a 
 
 - Networking Fundamentals
 - Cisco Packet Tracer Labs
--
+- TryHackMe Labs Writeups
+- 
 
 ## Learning Goals
 
