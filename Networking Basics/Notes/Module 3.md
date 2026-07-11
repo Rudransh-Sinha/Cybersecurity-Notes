@@ -161,8 +161,3 @@ After completing this module, I can:
 
 ---
 
-## Module Status
-
-- **Module:** 3
-- **Course:** Cisco Networking Academy - Introduction to Cybersecurity
-- **Status:** ✅ Completed
