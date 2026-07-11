@@ -115,5 +115,3 @@ Ping is useful for:
 This room helped me understand concepts that I had heard many times but never fully understood. Instead of memorizing definitions, I now have a much clearer idea of how devices communicate across networks. This knowledge will make learning topics like packet analysis, Wireshark, Nmap, and network security much easier in the coming weeks.
 
 ---
-
-**Next Goal:** Complete the **Intro to LAN** room and continue building my networking fundamentals.
