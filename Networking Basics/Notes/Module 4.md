@@ -15,7 +15,6 @@ A typical home network connects multiple devices to the internet through a route
 - Desktop & Laptop
 - Smartphones
 - Smart TV
-- Gaming Console
 - Printer
 - Security Cameras
 - Smart Home Devices
@@ -47,7 +46,7 @@ Ethernet is the most common wired networking technology.
 - Less interference
 - Ideal for gaming, servers, and desktops
 
-The most common Ethernet cable used in homes is **Cat5e UTP**.
+The most common Ethernet cable used in homes is **Cat5e UTP (supports speed upto 1Gbps)**.
 
 ---
 
