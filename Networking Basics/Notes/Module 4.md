@@ -192,4 +192,3 @@ After completing this module, I can:
 
 ---
 
-![alt text](<Screenshot 2026-07-12 212005.png>)
