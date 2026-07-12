@@ -191,3 +191,5 @@ After completing this module, I can:
 - Apply basic home network security best practices.
 
 ---
+
+![alt text](<Screenshot 2026-07-12 212005.png>)
