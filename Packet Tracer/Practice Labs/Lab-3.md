@@ -101,4 +101,5 @@ From this lab, I learned how a home wireless network is configured from scratch.
 
 ---
 <img width="1915" height="1020" alt="Lab-3 Done" src="https://github.com/user-attachments/assets/a73d305e-af56-489f-85f0-7d6599b31511" />
+<img width="1915" height="1020" alt="Lab-3 Done" src="https://github.com/user-attachments/assets/e7c2a297-cfbe-478b-8a1f-31805c7e332b" />
 
