@@ -98,7 +98,7 @@ From this lab, I learned how a home wireless network is configured from scratch.
 
 - **Status:** ✅ Completed
 - **Completion:** 100%
-----------------------------------------------------------------
-![[Screenshot 2026-07-13 121132.png]]
 
-![[Screenshot 2026-07-13 112038.png]]
+---
+
+c:\Users\rudra\OneDrive\Github-Repo\Learning\Cybersecurity-Notes\Packet Tracer\Practice Labs\Images\Lab-3 Done.png c:\Users\rudra\OneDrive\Github-Repo\Learning\Cybersecurity-Notes\Packet Tracer\Practice Labs\Images\Lab-3.png
