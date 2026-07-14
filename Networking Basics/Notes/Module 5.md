@@ -242,9 +242,3 @@ After completing this module, I can:
 This module helped me understand what actually happens when one device communicates with another. Instead of only seeing IP addresses and protocols, I now understand their purpose and how they work together. These concepts will be useful when I start analyzing network traffic, investigating incidents, and working with packet analysis tools like Wireshark.
 
 ---
-
-## Module Status
-
-- **Course:** Cisco Networking Academy - Networking Basics
-- **Module:** 5 - Communication Principles
-- **Status:** ✅ Completed
