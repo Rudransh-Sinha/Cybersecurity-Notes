@@ -192,9 +192,3 @@ After completing this module, I can:
 This module helped me understand that communication between devices depends on more than just IP addresses and protocols. The transmission medium itself plays a major role in network performance and reliability. Learning about different media types has given me a stronger networking foundation that will help when studying network security and troubleshooting.
 
 ---
-
-## Module Status
-
-- **Course:** Cisco Networking Academy – Networking Basics
-- **Module:** 6 - Network Media
-- **Status:** ✅ Completed
