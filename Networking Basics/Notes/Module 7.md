@@ -185,5 +185,3 @@ Whenever a device sends a frame, the switch learns the source MAC address and st
 - Learned the structure of an Ethernet Frame.
 - Explored the purpose of MAC Addresses.
 - Studied the role of the Access Layer in a LAN.
-- Learned how switches build and use MAC Address Tables.
-- Compared Hubs and Switches and understood why switches dominate modern networks.
