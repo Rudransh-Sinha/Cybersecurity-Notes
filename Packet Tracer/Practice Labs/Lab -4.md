@@ -29,19 +29,19 @@ LearnIP Web Server
 
 ## Devices Used
 
-| Device | Role |
-|---------|------|
-| PC0 | Client Computer |
-| Internet Cloud | Simulated Internet |
-| LearnIP Web Server | Web Server |
+| Device             | Role               |
+| ------------------ | ------------------ |
+| PC0                | Client Computer    |
+| Internet Cloud     | Simulated Internet |
+| LearnIP Web Server | Web Server         |
 
 ---
 
 ## IP Addressing
 
-| Device | IP Address |
-|---------|------------|
-| PC0 | 192.168.1.100 |
+| Device             | IP Address    |
+| ------------------ | ------------- |
+| PC0                | 192.168.1.100 |
 | LearnIP Web Server | 172.33.100.50 |
 
 ---
@@ -104,8 +104,7 @@ This confirms that HTTP communication between the client and the web server was 
 
 ## Screenshot
 
-![[Lab-4 Done.png]]
----
+## ![Lab-4 Completed](<Lab-4 Done.png>)
 
 ## Conclusion
 
