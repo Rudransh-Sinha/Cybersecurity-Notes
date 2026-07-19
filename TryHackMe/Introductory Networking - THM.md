@@ -110,7 +110,6 @@ Cannot be accessed directly from the internet.
 ### Public IP
 
 Assigned by the ISP.
-
 Visible on the internet and used for communication outside the local network.
 
 ---
