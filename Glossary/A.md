@@ -1,23 +1,38 @@
+## ARP (Address Resolution Protocol)
+Maps an IPv4 address to a device's MAC address within a local network.
 
-## Access Layer
+## Broadcast
+A communication method where one device sends data to every device in the same network.
 
-Purpose: The network layer where end devices connect to the LAN.
+## CIDR (Classless Inter-Domain Routing)
+A notation used to define IP addresses and subnet masks (e.g., 192.168.1.0/24).
 
-Example: PCs connected to a switch.
----
+## Default Gateway
+The router that forwards traffic from a local network to other networks.
 
-## Authentication
+## DHCP (Dynamic Host Configuration Protocol)
+Automatically assigns IP addresses and other network settings to devices.
 
-Purpose: Verifies the identity of a user or device.
+## DNS (Domain Name System)
+Translates domain names (google.com) into IP addresses.
 
-Example: Username and Password.
+## IPv4
+A 32-bit addressing protocol used to identify devices on a network.
 
----
+## MAC Address
+A unique hardware address assigned to a network interface.
 
-## Authorization
+## Multicast
+One-to-many communication where only subscribed devices receive the data.
 
-Purpose: Determines what an authenticated user is allowed to access.
+## Router
+A networking device that connects different networks and forwards packets.
 
-Example: An admin can modify files, while a regular user can only view them.
+## Subnet
+A smaller logical network created by dividing a larger network.
 
----
+## Switch
+Connects devices within the same LAN and forwards frames using MAC addresses.
+
+## Unicast
+One-to-one communication between a sender and a single receiver.
