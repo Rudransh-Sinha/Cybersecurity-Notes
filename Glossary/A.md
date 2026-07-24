@@ -36,3 +36,15 @@ Connects devices within the same LAN and forwards frames using MAC addresses.
 
 ## Unicast
 One-to-one communication between a sender and a single receiver.
+
+# Basic Networking Commands
+
+- ipconfig
+- ifconfig
+- ip addr
+- ping
+- tracert
+- traceroute
+- nslookup
+- netstat
+- arp
