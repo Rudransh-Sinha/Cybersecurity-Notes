@@ -47,14 +47,4 @@ One-to-one communication between a sender and a single receiver.
 - traceroute
 - nslookup
 - netstat
-- arp
-Gateway
-NAT
-Packet
-Frame
-Latency
-Throughput
-Bandwidth
-ISP
-TTL
-ICMP
+- arps
