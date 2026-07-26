@@ -152,11 +152,3 @@ They also prevent broadcast traffic from crossing into other networks, helping c
 This module strengthened my understanding of how IPv4 communication works in real-world networks. Learning the differences between Unicast, Broadcast, and Multicast, along with network segmentation, showed how organizations improve efficiency, performance, and security. These concepts are fundamental for networking and form an important foundation for cybersecurity, SOC analysis, and penetration testing.
 
 ---
-
-## Learning Log
-
-### 22 July 2026
-
-- Attended interview/job-related commitments.
-- No technical study completed.
-- Resume Module 9 tomorrow.
