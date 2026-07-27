@@ -1,154 +1,289 @@
-# Module 9 - IPv4 Communication
+# Module 9 - IPv4 and Network Segmentation
 
-**Course:** Cisco Networking Academy - Networking Basics  
-**Module:** IPv4 Communication
-
----
-
-# What I Learned
-
-This module introduced how devices communicate using IPv4 addresses and the different methods used to deliver data across a network. I also learned how IPv4 communication works efficiently by using different transmission methods depending on the destination.
+**Course:** Cisco Networking Academy – Networking Basics  
+**Module:** 9 - IPv4 and Network Segmentation
 
 ---
 
-# IPv4 Communication Types
+# Module Overview
 
-IPv4 devices communicate using three primary methods:
-
-- Unicast
-- Broadcast
-- Multicast
-
-Each method serves a different purpose within a network.
+This module introduced different IPv4 communication methods, types of IPv4 addresses, and why network segmentation is important in modern networks. It also explained how broadcasts affect network performance and how subnetting improves efficiency and security.
 
 ---
 
-## Unicast
+# IPv4 Communication Methods
+
+IPv4 supports three communication methods.
+
+## 1. Unicast
 
 Unicast is **one-to-one communication**.
 
-A packet is sent from one device directly to another specific device using its unique IPv4 address.
+A packet is sent from one source device to one specific destination device.
 
 Examples:
 
-- Browsing a website
-- SSH connection
-- Downloading files
-- Sending emails
+- Browsing websites
+- SSH
+- Email
+- File downloads
 
 Most internet traffic uses unicast communication.
 
 ---
 
-## Broadcast
+## 2. Broadcast
 
-Broadcast is **one-to-all communication** within the same network.
+Broadcast is **one-to-all communication**.
 
-One device sends a packet, and every host inside the local network receives it.
+A packet is delivered to every device within the same broadcast domain.
 
 Important points:
 
-- Broadcast traffic stays inside the local network.
 - Routers do not forward broadcast packets.
-- Used for device discovery and network services.
-
-Example:
-
-- ARP (Address Resolution Protocol) requests
+- Used for network discovery.
+- Commonly used by ARP and DHCP.
 
 ---
 
-## Multicast
+## 3. Multicast
 
 Multicast is **one-to-many communication**.
 
-Packets are delivered only to devices that have joined a multicast group instead of every device on the network.
+Packets are delivered only to devices that have joined a multicast group.
 
 Examples:
 
-- Live video streaming
 - IPTV
+- Live video streaming
 - Video conferencing
-- Online classes
+- Online meetings
 
-This method reduces unnecessary network traffic.
+Compared to broadcast, multicast saves bandwidth.
 
 ---
 
-# IPv4 Communication Comparison
+# Communication Comparison
 
-| Type | Communication | Receivers |
-|------|---------------|-----------|
+| Communication | Description | Receivers |
+|--------------|-------------|-----------|
 | Unicast | One → One | Single device |
 | Broadcast | One → All | Every device in the local network |
-| Multicast | One → Many | Devices subscribed to the multicast group |
+| Multicast | One → Many | Devices subscribed to a multicast group |
+
+---
+
+# Types of IPv4 Addresses
+
+## Public IPv4 Address
+
+A public IPv4 address is globally routable on the Internet.
+
+Characteristics:
+
+- Unique worldwide
+- Assigned by an ISP
+- Used for Internet communication
+
+---
+
+## Private IPv4 Address
+
+Private IPv4 addresses are used inside local networks.
+
+Private address ranges:
+
+- **10.0.0.0 – 10.255.255.255**
+- **172.16.0.0 – 172.31.255.255**
+- **192.168.0.0 – 192.168.255.255**
+
+Characteristics:
+
+- Not routable on the Internet
+- Used in homes and organizations
+- Require NAT to communicate over the Internet
+
+---
+
+## Loopback Address
+
+Loopback addresses are reserved for testing the local device.
+
+Range:
+
+```
+127.0.0.0/8
+```
+
+Most commonly used:
+
+```
+127.0.0.1
+```
+
+Purpose:
+
+- Tests the TCP/IP stack
+- Sends traffic back to the same device
+
+---
+
+## Link-Local (APIPA) Address
+
+Range:
+
+```
+169.254.0.0/16
+```
+
+Assigned automatically when:
+
+- A DHCP server is unavailable.
+- The device cannot obtain an IP address.
+
+---
+
+# IPv4 Address Classes
+
+Earlier IPv4 networks were divided into classes.
+
+### Class A
+
+- Range: 0.0.0.0 – 127.255.255.255
+- Supports very large networks
+
+---
+
+### Class B
+
+- Range: 128.0.0.0 – 191.255.255.255
+- Supports medium to large networks
+
+---
+
+### Class C
+
+- Range: 192.0.0.0 – 223.255.255.255
+- Supports small networks
+
+---
+
+### Class D
+
+- Range: 224.0.0.0 – 239.255.255.255
+- Reserved for Multicast
+
+---
+
+### Class E
+
+- Range: 240.0.0.0 – 255.255.255.255
+- Reserved for Experimental use
+
+---
+
+# NAT (Network Address Translation)
+
+Organizations commonly use private IPv4 addresses internally.
+
+Before traffic reaches the Internet, NAT translates the private IPv4 address into a public IPv4 address.
+
+Benefits:
+
+- Conserves public IPv4 addresses
+- Improves security by hiding internal IP addresses
 
 ---
 
 # Broadcast Domains
 
-A broadcast domain is the area where broadcast packets are received.
+A broadcast domain is the portion of a network where broadcast packets are received.
 
-As networks grow larger:
+Examples of broadcast traffic:
 
-- Broadcast traffic increases.
-- Network performance decreases.
-- Devices process more unnecessary traffic.
+- ARP Requests
+- DHCP Discover messages
 
-Limiting broadcast traffic improves overall network efficiency.
+Large broadcast domains generate excessive traffic, reducing network performance.
 
 ---
 
 # Network Segmentation
 
-Large networks are divided into smaller networks called **subnets**.
+Network segmentation divides one large network into multiple smaller networks.
 
-Network segmentation helps organizations by:
+These smaller networks are called **subnets**.
 
-- Reducing broadcast traffic
-- Improving network performance
-- Making troubleshooting easier
-- Increasing security
-- Simplifying network management
+Benefits:
 
-Instead of placing every device in one network, devices are grouped based on departments, buildings, or specific functions.
+- Reduces broadcast traffic
+- Improves performance
+- Easier troubleshooting
+- Better security
+- Simplifies network management
 
 ---
 
-# Role of a Router
+# Subnetting
 
-Routers connect different networks and allow devices in separate subnets to communicate.
+Subnetting creates multiple logical networks from a single network by borrowing host bits.
 
-They also prevent broadcast traffic from crossing into other networks, helping control unnecessary traffic.
+Advantages:
+
+- Better utilization of IPv4 addresses
+- Smaller broadcast domains
+- Improved network efficiency
+- Better traffic control
+
+---
+
+# Role of Routers
+
+Routers connect different networks together.
+
+They:
+
+- Forward packets between networks
+- Prevent broadcasts from crossing network boundaries
+- Enable communication between different subnets
 
 ---
 
 # Key Terms Learned
 
 - IPv4
+- Public IP
+- Private IP
+- Loopback Address
+- APIPA
+- NAT
 - Unicast
 - Broadcast
 - Multicast
 - Broadcast Domain
-- Subnet
-- Network Segmentation
 - Router
+- Subnet
+- Subnetting
 
 ---
 
 # Key Takeaways
 
 - IPv4 supports Unicast, Broadcast, and Multicast communication.
-- Unicast is the most common communication method.
-- Broadcast reaches every device inside a local network.
-- Multicast sends data only to interested devices, saving bandwidth.
-- Large networks should be segmented into smaller subnets.
-- Routers connect different networks and limit broadcast traffic.
+- Public IP addresses are globally routable, while private IP addresses are used within local networks.
+- NAT allows private networks to communicate with the Internet.
+- Loopback addresses are used for local testing.
+- APIPA addresses are automatically assigned when DHCP is unavailable.
+- Large broadcast domains reduce network performance.
+- Subnetting creates smaller, more efficient networks.
+- Routers connect networks and block broadcast traffic between subnets.
 
 ---
 
 # Reflection
 
-This module strengthened my understanding of how IPv4 communication works in real-world networks. Learning the differences between Unicast, Broadcast, and Multicast, along with network segmentation, showed how organizations improve efficiency, performance, and security. These concepts are fundamental for networking and form an important foundation for cybersecurity, SOC analysis, and penetration testing.
+This module gave me a solid understanding of how IPv4 communication works in enterprise networks. Learning about public and private addressing, NAT, broadcast domains, and subnetting showed how organizations design networks that are efficient, scalable, and secure. These networking fundamentals are directly applicable to SOC analysis, network troubleshooting, and penetration testing.
 
 ---
+
+**Module Status:** ✅ Completed
