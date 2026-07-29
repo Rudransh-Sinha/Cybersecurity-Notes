@@ -1,5 +1,3 @@
-## ARP (Address Resolution Protocol)
-Maps an IPv4 address to a device's MAC address within a local network.
 
 ## Broadcast
 A communication method where one device sends data to every device in the same network.
