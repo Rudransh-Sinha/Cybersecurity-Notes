@@ -2,8 +2,6 @@
 ## Broadcast
 A communication method where one device sends data to every device in the same network.
 
-## CIDR (Classless Inter-Domain Routing)
-A notation used to define IP addresses and subnet masks (e.g., 192.168.1.0/24).
 
 ## Default Gateway
 The router that forwards traffic from a local network to other networks.
