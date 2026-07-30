@@ -3,9 +3,6 @@
 A communication method where one device sends data to every device in the same network.
 
 
-## Default Gateway
-The router that forwards traffic from a local network to other networks.
-
 ## DHCP (Dynamic Host Configuration Protocol)
 Automatically assigns IP addresses and other network settings to devices.
 
