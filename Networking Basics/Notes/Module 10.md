@@ -39,14 +39,14 @@ IPv6 solves this problem by using **128-bit addresses**, providing an almost unl
 
 # IPv4 vs IPv6
 
-| IPv4 | IPv6 |
-|------|------|
-| 32-bit address | 128-bit address |
-| ~4.3 Billion addresses | 340 Undecillion addresses |
-| Uses NAT extensively | NAT usually not required |
-| Header is more complex | Simpler and more efficient header |
-| Broadcast supported | No broadcast (uses multicast & anycast) |
-| Optional IPsec | Built-in IPsec support |
+| IPv4                        | IPv6                                     |
+| --------------------------- | ---------------------------------------- |
+| 32-bit address              | 128-bit address                          |
+| ~4.3 Billion addresses      | 340 Undecillion addresses                |
+| Uses NAT extensively        | NAT usually not required                 |
+| Header is more complex      | Simpler and more efficient header        |
+| Broadcast supported         | No broadcast (uses multicast & anycast)  |
+| Optional IPsec              | Built-in IPsec support                   |
 | Manual configuration common | Supports automatic configuration (SLAAC) |
 
 ---
@@ -167,8 +167,6 @@ Many organizations continue to support IPv4 while gradually transitioning to IPv
 
 # Reflection
 
-Understanding *why* IPv6 exists is more important than simply memorizing its format. IPv6 isn't just a larger version of IPv4—it addresses real-world networking challenges like address exhaustion, scalability, efficiency, and security. As more organizations adopt IPv6, having a solid grasp of its fundamentals will be essential for networking, SOC analysis, and cybersecurity roles.
+Understanding _why_ IPv6 exists is more important than simply memorizing its format. IPv6 isn't just a larger version of IPv4—it addresses real-world networking challenges like address exhaustion, scalability, efficiency, and security. As more organizations adopt IPv6, having a solid grasp of its fundamentals will be essential for networking, SOC analysis, and cybersecurity roles.
 
 ---
-
-**Module Status:** ✅ Completed
