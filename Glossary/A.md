@@ -1,14 +1,7 @@
-## ARP (Address Resolution Protocol)
-Maps an IPv4 address to a device's MAC address within a local network.
 
 ## Broadcast
 A communication method where one device sends data to every device in the same network.
 
-## CIDR (Classless Inter-Domain Routing)
-A notation used to define IP addresses and subnet masks (e.g., 192.168.1.0/24).
-
-## Default Gateway
-The router that forwards traffic from a local network to other networks.
 
 ## DHCP (Dynamic Host Configuration Protocol)
 Automatically assigns IP addresses and other network settings to devices.
@@ -37,14 +30,3 @@ Connects devices within the same LAN and forwards frames using MAC addresses.
 ## Unicast
 One-to-one communication between a sender and a single receiver.
 
-# Basic Networking Commands
-
-- ipconfig
-- ifconfig
-- ip addr
-- ping
-- tracert
-- traceroute
-- nslookup
-- netstat
-- arps
