@@ -1,7 +1,6 @@
-# Module 10.1 - Why IPv6?
+# Module 10
 
-**Course:** Cisco Networking Academy – Networking Basics  
-**Module:** 10.1 - Why IPv6?
+
 
 ---
 
