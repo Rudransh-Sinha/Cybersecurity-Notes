@@ -102,11 +102,13 @@ Ping is useful for:
 - Every device on a network needs an IP address for communication.
     
 - MAC addresses uniquely identify hardware on a local network.
+
+- Ping is a simple but powerful tool for testing network connectivity.
+    
     
 - The Internet is made up of many interconnected networks.
     
-- Ping is a simple but powerful tool for testing network connectivity.
-    
+
 
 ---
 
