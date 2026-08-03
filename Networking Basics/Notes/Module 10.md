@@ -159,9 +159,8 @@ Many organizations continue to support IPv4 while gradually transitioning to IPv
 - It removes the dependency on NAT.
 - IPv6 offers automatic address configuration using SLAAC.
 - Security is improved through IPsec support.
-- IPv6 replaces broadcast with multicast and anycast for more efficient communication.
 - Most modern networks currently use a dual-stack approach, supporting both IPv4 and IPv6.
-
+- IPv6 replaces broadcast with multicast and anycast for more efficient communication.
 ---
 
 # Reflection
