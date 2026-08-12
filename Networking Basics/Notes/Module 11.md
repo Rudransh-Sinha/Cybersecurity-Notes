@@ -183,4 +183,3 @@ Understanding DHCP is also important for troubleshooting networks because incorr
 
 ---
 
-**Module Status:** ✅ Completed
