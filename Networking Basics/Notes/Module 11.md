@@ -1,7 +1,5 @@
 # Module 11 - Dynamic Addressing with DHCP
 
-**Course:** Cisco Networking Academy – Networking Basics
-**Module:** 11 - Dynamic Addressing with DHCP
 
 ---
 
