@@ -178,6 +178,3 @@ DHCP provides several advantages:
 This module helped me understand what actually happens when a device joins a network and gets an IP address automatically. The **DORA process** is especially important because it explains the basic communication between a DHCP client and server.
 
  
-
-nothing new here
-good night
