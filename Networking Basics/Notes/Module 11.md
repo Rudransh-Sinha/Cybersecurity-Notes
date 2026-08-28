@@ -10,6 +10,7 @@ In this module, I learned how devices can automatically get their IP configurati
 DHCP makes network management easier, especially when there are many devices connected to a network.
 
 
+
 ---
 
 ## What is DHCP?
@@ -41,6 +42,7 @@ PC 3 → Manual IP
 PC 4 → Manual IP
 ...
 ```
+
 
 This becomes difficult to manage and can also cause problems such as duplicate IP addresses.
 
